@@ -47,9 +47,7 @@ The non-dimensional governing equations for incompressible flow are:
 **X-Momentum Equation**
 
 $$
-
 \frac{\partial u}{\partial t}+u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}=-\frac{\partial p}{\partial x}+\frac{1}{Re}\left(\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}\right)
-
 $$
 
 **Y-Momentum Equation**

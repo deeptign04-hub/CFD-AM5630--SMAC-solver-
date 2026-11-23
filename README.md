@@ -1,6 +1,6 @@
 # AM5630: Introduction to Computational Fluid Dynamics
 
-## Computer Assignment 3 – Problem 2: 2D Channel Flow (Plane-Poiseuille Flow)
+## 2D Channel Flow (Plane-Poiseuille Flow)
 ### 1. Problem Description
 
 Consider a two-dimensional channel of length `L` and height `H`.
@@ -47,38 +47,21 @@ The non-dimensional governing equations for incompressible flow are:
 **X-Momentum Equation**
 
 $$
-\frac{\partial u}{\partial t}
-+u\frac{\partial u}{\partial x}
-+v\frac{\partial u}{\partial y}
-=
--\frac{\partial p}{\partial x}
-+\frac{1}{Re}
-\left(
-\frac{\partial^2u}{\partial x^2}
-+\frac{\partial^2u}{\partial y^2}
-\right)
+
+\frac{\partial u}{\partial t}+u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}=-\frac{\partial p}{\partial x}+\frac{1}{Re}\left(\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}\right)
+
 $$
 
 **Y-Momentum Equation**
 
 $$
-\frac{\partial v}{\partial t}
-+u\frac{\partial v}{\partial x}
-+v\frac{\partial v}{\partial y}
-=
--\frac{\partial p}{\partial y}
-+\frac{1}{Re}
-\left(
-\frac{\partial^2v}{\partial x^2}
-+\frac{\partial^2v}{\partial y^2}
-\right)
+\frac{\partial v}{\partial t}+u\frac{\partial v}{\partial x}+v\frac{\partial v}{\partial y}=-\frac{\partial p}{\partial y}+\frac{1}{Re}\left(\frac{\partial^2v}{\partial x^2}+\frac{\partial^2v}{\partial y^2}\right)
 $$
 
 **Continuity Equation**
 
 $$
-\frac{\partial u}{\partial x}
-+\frac{\partial v}{\partial y}=0
+\frac{\partial u}{\partial x}+\frac{\partial v}{\partial y}=0
 $$
 
 ### 6. Initial and Boundary Conditions
